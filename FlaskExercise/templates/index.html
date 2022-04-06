@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Connecting Your App to Storage</title>
+    <title>Connecting to Storage</title>
     <meta
       content="width=device-width, initial-scale=1, maximum-scale=1"
       name="viewport"
@@ -12,7 +12,7 @@
 
   <body>
   <div class = "container">
-    <div class="header box">UdaciZoo</div>
+    <div class="header box">V2X GM</div>
     <div class="content box">
       <div class="flex-container">
         {% for animal in animals %}
@@ -25,7 +25,7 @@
             </form>
           {% else %}
             <form action="/animal/{{ animal.id }}">
-              <input type="submit" value="Add Image" />
+              <input type="Submit" value="Add Image" />
             </form>           
           {% endif %}
           <p>
@@ -36,7 +36,7 @@
       {% endfor %}
       </div>
     </div>
-    <div class="footer box">Copyright 2020 Udacious Student</div>
+    <div class="footer box">Copyright 2022 V2X GM</div>
   </div>
   </body>
 </html>
